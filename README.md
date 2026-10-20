@@ -19,6 +19,14 @@ Campanhas de marketing genéricas (disparar o mesmo e-mail para todos) são inef
 2. **Definição Matemática dos Clusters:** Para fugir do achismo na escolha do número de grupos, foram executados loops de testes. O gráfico do **Método do Cotovelo** cruzado com a avaliação do **Silhouette Score** apontou matematicamente que `k=5` era a divisão perfeita para os dados.
 3. **Treinamento e Visualização:** O modelo dividiu a base com clareza cristalina. Uma visualização de dispersão foi gerada contendo a localização exata dos centroides geométricos.
 
+<table>
+  <tr>
+    <td><img src="./images/Figure_1.png" alt="Imagem 1" width="100%"></td>
+    <td><img src="./images/Figure_2.png" alt="Imagem 2" width="100%"></td>
+  </tr>
+</table>
+
+
 ## Conclusões Extraídas (Insights)
 O modelo isolou 5 arquétipos de consumidores:
 *   **Alta Renda, Alto Gasto:** Os clientes ideais. Público para lançamentos premium.
@@ -27,7 +35,9 @@ O modelo isolou 5 arquétipos de consumidores:
 *   **Baixa Renda, Baixo Gasto:** Clientes esporádicos.
 *   **Renda Média, Gasto Médio:** A grande massa de clientes regulares.
 
-## 🚀 Como Executar
+![](/images/Figure_3.png)
+
+## Como Executar
 
 1. Clone o repositório,
 
